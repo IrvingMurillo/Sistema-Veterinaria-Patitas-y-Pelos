@@ -8,5 +8,6 @@ namespace SistemaVeterinariaPatitasYPelos.Clases
 {
     class Class1
     {
+        //hola
     }
 }
