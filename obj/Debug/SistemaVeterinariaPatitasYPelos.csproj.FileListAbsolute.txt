@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\SistemaVeterinariaPatitasYPelos.exe.config
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\SistemaVeterinariaPatitasYPelos.exe
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\SistemaVeterinariaPatitasYPelos.pdb
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Form1.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Properties.Resources.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.exe
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.pdb
