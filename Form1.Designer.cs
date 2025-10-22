@@ -29,15 +29,31 @@ namespace SistemaVeterinariaPatitasYPelos
         /// </summary>
         private void InitializeComponent()
         {
+            this.BtnPrueba = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // BtnPrueba
+            // 
+            this.BtnPrueba.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BtnPrueba.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPrueba.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPrueba.Location = new System.Drawing.Point(25, 23);
+            this.BtnPrueba.Name = "BtnPrueba";
+            this.BtnPrueba.Size = new System.Drawing.Size(150, 150);
+            this.BtnPrueba.TabIndex = 0;
+            this.BtnPrueba.Text = "probar conexion";
+            this.BtnPrueba.UseVisualStyleBackColor = false;
+            this.BtnPrueba.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(200, 200);
+            this.Controls.Add(this.BtnPrueba);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -46,6 +62,8 @@ namespace SistemaVeterinariaPatitasYPelos
         }
 
         #endregion
+
+        private System.Windows.Forms.Button BtnPrueba;
     }
 }
 
