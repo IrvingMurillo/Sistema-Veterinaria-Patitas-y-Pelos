@@ -43,7 +43,7 @@ namespace SistemaVeterinariaPatitasYPelos
             this.BtnPrueba.TabIndex = 0;
             this.BtnPrueba.Text = "probar conexion";
             this.BtnPrueba.UseVisualStyleBackColor = false;
-            this.BtnPrueba.Click += new System.EventHandler(this.button1_Click);
+            this.BtnPrueba.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Form1
             // 

@@ -12,7 +12,7 @@ namespace SistemaVeterinariaPatitasYPelos
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             // Crear objeto de conexión
             Conexion db = new Conexion();
