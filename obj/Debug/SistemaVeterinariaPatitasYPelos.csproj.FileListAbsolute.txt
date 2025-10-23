@@ -43,3 +43,7 @@ C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\System.T
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.csproj.CopyComplete
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrClientes.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrGerentes.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrVeterinarios.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrMascotas.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrProductos.resources

@@ -1,7 +1,7 @@
 ﻿
 namespace SistemaVeterinariaPatitasYPelos.Formularios
 {
-    partial class FmrClientes
+    partial class FmrProductos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.BtnAgregar = new FontAwesome.Sharp.IconButton();
             this.BtnModificar = new FontAwesome.Sharp.IconButton();
             this.BtnEliminar = new FontAwesome.Sharp.IconButton();
@@ -40,21 +40,16 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnBuscar = new FontAwesome.Sharp.IconButton();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.BtnSalir = new FontAwesome.Sharp.IconButton();
-            this.DgvClientes = new System.Windows.Forms.DataGridView();
+            this.DgvProductos = new System.Windows.Forms.DataGridView();
             this.TxtBuscar = new System.Windows.Forms.TextBox();
-            this.id_cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fecha_registro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id_producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comentarios = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contrasena = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.permisos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvClientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvProductos)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnAgregar
@@ -140,9 +135,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.label2.Location = new System.Drawing.Point(21, 28);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(429, 47);
+            this.label2.Size = new System.Drawing.Size(493, 47);
             this.label2.TabIndex = 4;
-            this.label2.Text = "LISTA DE CLIENTES";
+            this.label2.Text = "LISTA DE PRODUCTOS";
             // 
             // BtnBuscar
             // 
@@ -171,11 +166,11 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             // 
             this.iconPictureBox1.BackColor = System.Drawing.Color.White;
             this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Box;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 48;
-            this.iconPictureBox1.Location = new System.Drawing.Point(469, 28);
+            this.iconPictureBox1.Location = new System.Drawing.Point(522, 28);
             this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(48, 49);
@@ -201,57 +196,52 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
-            // DgvClientes
+            // DgvProductos
             // 
-            this.DgvClientes.AllowUserToAddRows = false;
-            this.DgvClientes.AllowUserToDeleteRows = false;
-            this.DgvClientes.AllowUserToResizeColumns = false;
-            this.DgvClientes.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.DgvClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.DgvClientes.BackgroundColor = System.Drawing.Color.White;
-            this.DgvClientes.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.DgvClientes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvClientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.DgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id_cliente,
-            this.nombres,
-            this.apellidos,
-            this.telefono,
-            this.email,
-            this.direccion,
-            this.fecha_registro,
-            this.comentarios,
-            this.usuario,
-            this.contrasena,
-            this.permisos});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvClientes.DefaultCellStyle = dataGridViewCellStyle3;
-            this.DgvClientes.GridColor = System.Drawing.Color.LightGray;
-            this.DgvClientes.Location = new System.Drawing.Point(25, 180);
-            this.DgvClientes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.DgvClientes.MultiSelect = false;
-            this.DgvClientes.Name = "DgvClientes";
-            this.DgvClientes.ReadOnly = true;
-            this.DgvClientes.RowHeadersVisible = false;
-            this.DgvClientes.RowHeadersWidth = 62;
-            this.DgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvClientes.Size = new System.Drawing.Size(1050, 500);
-            this.DgvClientes.TabIndex = 8;
+            this.DgvProductos.AllowUserToAddRows = false;
+            this.DgvProductos.AllowUserToDeleteRows = false;
+            this.DgvProductos.AllowUserToResizeColumns = false;
+            this.DgvProductos.AllowUserToResizeRows = false;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DgvProductos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.DgvProductos.BackgroundColor = System.Drawing.Color.White;
+            this.DgvProductos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DgvProductos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.DgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id_producto,
+            this.nombre,
+            this.tipo,
+            this.precio,
+            this.stock,
+            this.comentarios});
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvProductos.DefaultCellStyle = dataGridViewCellStyle6;
+            this.DgvProductos.GridColor = System.Drawing.Color.LightGray;
+            this.DgvProductos.Location = new System.Drawing.Point(25, 180);
+            this.DgvProductos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DgvProductos.MultiSelect = false;
+            this.DgvProductos.Name = "DgvProductos";
+            this.DgvProductos.ReadOnly = true;
+            this.DgvProductos.RowHeadersVisible = false;
+            this.DgvProductos.RowHeadersWidth = 62;
+            this.DgvProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DgvProductos.Size = new System.Drawing.Size(1050, 500);
+            this.DgvProductos.TabIndex = 8;
             // 
             // TxtBuscar
             // 
@@ -267,61 +257,45 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.TxtBuscar.Size = new System.Drawing.Size(156, 53);
             this.TxtBuscar.TabIndex = 9;
             // 
-            // id_cliente
+            // id_producto
             // 
-            this.id_cliente.HeaderText = "ID Cliente";
-            this.id_cliente.MinimumWidth = 8;
-            this.id_cliente.Name = "id_cliente";
-            this.id_cliente.ReadOnly = true;
-            this.id_cliente.Width = 150;
+            this.id_producto.HeaderText = "ID Producto";
+            this.id_producto.MinimumWidth = 8;
+            this.id_producto.Name = "id_producto";
+            this.id_producto.ReadOnly = true;
+            this.id_producto.Width = 150;
             // 
-            // nombres
+            // nombre
             // 
-            this.nombres.HeaderText = "Nombres";
-            this.nombres.MinimumWidth = 8;
-            this.nombres.Name = "nombres";
-            this.nombres.ReadOnly = true;
-            this.nombres.Width = 150;
+            this.nombre.HeaderText = "Nombre";
+            this.nombre.MinimumWidth = 8;
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
+            this.nombre.Width = 150;
             // 
-            // apellidos
+            // tipo
             // 
-            this.apellidos.HeaderText = "Apellidos";
-            this.apellidos.MinimumWidth = 8;
-            this.apellidos.Name = "apellidos";
-            this.apellidos.ReadOnly = true;
-            this.apellidos.Width = 150;
+            this.tipo.HeaderText = "Tipo";
+            this.tipo.MinimumWidth = 8;
+            this.tipo.Name = "tipo";
+            this.tipo.ReadOnly = true;
+            this.tipo.Width = 150;
             // 
-            // telefono
+            // precio
             // 
-            this.telefono.HeaderText = "Teléfono";
-            this.telefono.MinimumWidth = 8;
-            this.telefono.Name = "telefono";
-            this.telefono.ReadOnly = true;
-            this.telefono.Width = 150;
+            this.precio.HeaderText = "Precio";
+            this.precio.MinimumWidth = 8;
+            this.precio.Name = "precio";
+            this.precio.ReadOnly = true;
+            this.precio.Width = 150;
             // 
-            // email
+            // stock
             // 
-            this.email.HeaderText = "Email";
-            this.email.MinimumWidth = 8;
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
-            this.email.Width = 150;
-            // 
-            // direccion
-            // 
-            this.direccion.HeaderText = "Dirección";
-            this.direccion.MinimumWidth = 8;
-            this.direccion.Name = "direccion";
-            this.direccion.ReadOnly = true;
-            this.direccion.Width = 150;
-            // 
-            // fecha_registro
-            // 
-            this.fecha_registro.HeaderText = "Fecha de registro";
-            this.fecha_registro.MinimumWidth = 8;
-            this.fecha_registro.Name = "fecha_registro";
-            this.fecha_registro.ReadOnly = true;
-            this.fecha_registro.Width = 150;
+            this.stock.HeaderText = "Stock";
+            this.stock.MinimumWidth = 8;
+            this.stock.Name = "stock";
+            this.stock.ReadOnly = true;
+            this.stock.Width = 150;
             // 
             // comentarios
             // 
@@ -331,38 +305,14 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
             // 
-            // usuario
-            // 
-            this.usuario.HeaderText = "Usuario";
-            this.usuario.MinimumWidth = 8;
-            this.usuario.Name = "usuario";
-            this.usuario.ReadOnly = true;
-            this.usuario.Width = 150;
-            // 
-            // contrasena
-            // 
-            this.contrasena.HeaderText = "Contraseña";
-            this.contrasena.MinimumWidth = 8;
-            this.contrasena.Name = "contrasena";
-            this.contrasena.ReadOnly = true;
-            this.contrasena.Width = 150;
-            // 
-            // permisos
-            // 
-            this.permisos.HeaderText = "Permisos";
-            this.permisos.MinimumWidth = 8;
-            this.permisos.Name = "permisos";
-            this.permisos.ReadOnly = true;
-            this.permisos.Width = 150;
-            // 
-            // FmrClientes
+            // FmrProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1100, 700);
             this.Controls.Add(this.TxtBuscar);
-            this.Controls.Add(this.DgvClientes);
+            this.Controls.Add(this.DgvProductos);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.BtnBuscar);
@@ -372,10 +322,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.Controls.Add(this.BtnAgregar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "FmrClientes";
+            this.Name = "FmrProductos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvClientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvProductos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,18 +341,13 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
         private FontAwesome.Sharp.IconButton BtnBuscar;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private FontAwesome.Sharp.IconButton BtnSalir;
-        private System.Windows.Forms.DataGridView DgvClientes;
+        private System.Windows.Forms.DataGridView DgvProductos;
         private System.Windows.Forms.TextBox TxtBuscar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id_cliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombres;
-        private System.Windows.Forms.DataGridViewTextBoxColumn apellidos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn direccion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fecha_registro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id_producto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn precio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stock;
         private System.Windows.Forms.DataGridViewTextBoxColumn comentarios;
-        private System.Windows.Forms.DataGridViewTextBoxColumn usuario;
-        private System.Windows.Forms.DataGridViewTextBoxColumn contrasena;
-        private System.Windows.Forms.DataGridViewTextBoxColumn permisos;
     }
 }
