@@ -29,9 +29,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.BtnAgregar = new FontAwesome.Sharp.IconButton();
             this.BtnModificar = new FontAwesome.Sharp.IconButton();
             this.BtnEliminar = new FontAwesome.Sharp.IconButton();
@@ -66,9 +66,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnAgregar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnAgregar.IconSize = 20;
             this.BtnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnAgregar.Location = new System.Drawing.Point(18, 56);
+            this.BtnAgregar.Location = new System.Drawing.Point(30, 100);
+            this.BtnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(105, 35);
+            this.BtnAgregar.Size = new System.Drawing.Size(158, 54);
             this.BtnAgregar.TabIndex = 0;
             this.BtnAgregar.Text = "AGREGAR";
             this.BtnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -88,9 +89,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnModificar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnModificar.IconSize = 20;
             this.BtnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnModificar.Location = new System.Drawing.Point(129, 56);
+            this.BtnModificar.Location = new System.Drawing.Point(197, 100);
+            this.BtnModificar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnModificar.Name = "BtnModificar";
-            this.BtnModificar.Size = new System.Drawing.Size(105, 35);
+            this.BtnModificar.Size = new System.Drawing.Size(158, 54);
             this.BtnModificar.TabIndex = 1;
             this.BtnModificar.Text = "MODIFICAR";
             this.BtnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -110,9 +112,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEliminar.IconSize = 20;
             this.BtnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEliminar.Location = new System.Drawing.Point(240, 56);
+            this.BtnEliminar.Location = new System.Drawing.Point(363, 100);
+            this.BtnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(105, 35);
+            this.BtnEliminar.Size = new System.Drawing.Size(158, 54);
             this.BtnEliminar.TabIndex = 2;
             this.BtnEliminar.Text = "ELIMINAR";
             this.BtnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -131,9 +134,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Location = new System.Drawing.Point(21, 28);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(293, 31);
+            this.label2.Size = new System.Drawing.Size(429, 47);
             this.label2.TabIndex = 4;
             this.label2.Text = "LISTA DE CLIENTES";
             // 
@@ -149,9 +153,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnBuscar.IconSize = 20;
             this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBuscar.Location = new System.Drawing.Point(351, 56);
+            this.BtnBuscar.Location = new System.Drawing.Point(529, 100);
+            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(105, 35);
+            this.BtnBuscar.Size = new System.Drawing.Size(158, 54);
             this.BtnBuscar.TabIndex = 5;
             this.BtnBuscar.Text = "BUSCAR";
             this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -166,9 +171,11 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Users;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.Location = new System.Drawing.Point(311, 9);
+            this.iconPictureBox1.IconSize = 48;
+            this.iconPictureBox1.Location = new System.Drawing.Point(469, 28);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.iconPictureBox1.Size = new System.Drawing.Size(48, 49);
             this.iconPictureBox1.TabIndex = 6;
             this.iconPictureBox1.TabStop = false;
             // 
@@ -183,9 +190,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnSalir.IconColor = System.Drawing.Color.White;
             this.BtnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnSalir.IconSize = 30;
-            this.BtnSalir.Location = new System.Drawing.Point(770, 0);
+            this.BtnSalir.Location = new System.Drawing.Point(1055, 0);
+            this.BtnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(30, 30);
+            this.BtnSalir.Size = new System.Drawing.Size(45, 45);
             this.BtnSalir.TabIndex = 7;
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
@@ -196,19 +204,19 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.DgvClientes.AllowUserToDeleteRows = false;
             this.DgvClientes.AllowUserToResizeColumns = false;
             this.DgvClientes.AllowUserToResizeRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.DgvClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DgvClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DgvClientes.BackgroundColor = System.Drawing.Color.White;
             this.DgvClientes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DgvClientes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvClientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvClientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.DgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colId,
@@ -219,27 +227,30 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.colDireccion,
             this.colFechaRegistro,
             this.colComentarios});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvClientes.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvClientes.DefaultCellStyle = dataGridViewCellStyle6;
             this.DgvClientes.GridColor = System.Drawing.Color.LightGray;
-            this.DgvClientes.Location = new System.Drawing.Point(10, 110);
+            this.DgvClientes.Location = new System.Drawing.Point(25, 180);
+            this.DgvClientes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.DgvClientes.MultiSelect = false;
             this.DgvClientes.Name = "DgvClientes";
             this.DgvClientes.ReadOnly = true;
             this.DgvClientes.RowHeadersVisible = false;
+            this.DgvClientes.RowHeadersWidth = 62;
             this.DgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvClientes.Size = new System.Drawing.Size(780, 380);
+            this.DgvClientes.Size = new System.Drawing.Size(1050, 500);
             this.DgvClientes.TabIndex = 8;
             // 
             // colId
             // 
             this.colId.HeaderText = "ID";
+            this.colId.MinimumWidth = 8;
             this.colId.Name = "colId";
             this.colId.ReadOnly = true;
             this.colId.Width = 50;
@@ -247,6 +258,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             // colNombres
             // 
             this.colNombres.HeaderText = "Nombre";
+            this.colNombres.MinimumWidth = 8;
             this.colNombres.Name = "colNombres";
             this.colNombres.ReadOnly = true;
             this.colNombres.Width = 120;
@@ -254,18 +266,23 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             // colApellidos
             // 
             this.colApellidos.HeaderText = "Apellido";
+            this.colApellidos.MinimumWidth = 8;
             this.colApellidos.Name = "colApellidos";
             this.colApellidos.ReadOnly = true;
+            this.colApellidos.Width = 150;
             // 
             // colTelefono
             // 
             this.colTelefono.HeaderText = "Teléfono";
+            this.colTelefono.MinimumWidth = 8;
             this.colTelefono.Name = "colTelefono";
             this.colTelefono.ReadOnly = true;
+            this.colTelefono.Width = 150;
             // 
             // colEmail
             // 
             this.colEmail.HeaderText = "Correo";
+            this.colEmail.MinimumWidth = 8;
             this.colEmail.Name = "colEmail";
             this.colEmail.ReadOnly = true;
             this.colEmail.Width = 150;
@@ -273,6 +290,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             // colDireccion
             // 
             this.colDireccion.HeaderText = "Dirección";
+            this.colDireccion.MinimumWidth = 8;
             this.colDireccion.Name = "colDireccion";
             this.colDireccion.ReadOnly = true;
             this.colDireccion.Width = 150;
@@ -280,12 +298,15 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             // colFechaRegistro
             // 
             this.colFechaRegistro.HeaderText = "Fecha Registro";
+            this.colFechaRegistro.MinimumWidth = 8;
             this.colFechaRegistro.Name = "colFechaRegistro";
             this.colFechaRegistro.ReadOnly = true;
+            this.colFechaRegistro.Width = 150;
             // 
             // colComentarios
             // 
             this.colComentarios.HeaderText = "Notas";
+            this.colComentarios.MinimumWidth = 8;
             this.colComentarios.Name = "colComentarios";
             this.colComentarios.ReadOnly = true;
             this.colComentarios.Width = 90;
@@ -297,18 +318,19 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.TxtBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TxtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBuscar.ForeColor = System.Drawing.Color.Black;
-            this.TxtBuscar.Location = new System.Drawing.Point(453, 56);
+            this.TxtBuscar.Location = new System.Drawing.Point(683, 100);
+            this.TxtBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtBuscar.Multiline = true;
             this.TxtBuscar.Name = "TxtBuscar";
-            this.TxtBuscar.Size = new System.Drawing.Size(105, 35);
+            this.TxtBuscar.Size = new System.Drawing.Size(156, 53);
             this.TxtBuscar.TabIndex = 9;
             // 
             // FmrClientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.ClientSize = new System.Drawing.Size(1100, 700);
             this.Controls.Add(this.TxtBuscar);
             this.Controls.Add(this.DgvClientes);
             this.Controls.Add(this.BtnSalir);
@@ -319,6 +341,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.Controls.Add(this.BtnModificar);
             this.Controls.Add(this.BtnAgregar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FmrClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
