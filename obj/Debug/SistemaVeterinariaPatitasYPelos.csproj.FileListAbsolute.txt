@@ -41,3 +41,5 @@ C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\System.N
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.csproj.CopyComplete
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrClientes.resources
