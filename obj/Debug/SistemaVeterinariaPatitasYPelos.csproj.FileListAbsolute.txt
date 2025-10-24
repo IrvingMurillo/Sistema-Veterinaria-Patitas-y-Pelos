@@ -47,3 +47,4 @@ C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaV
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrVeterinarios.resources
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrMascotas.resources
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrProductos.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrHorarios.resources
