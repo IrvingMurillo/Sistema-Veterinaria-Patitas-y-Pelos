@@ -17,7 +17,7 @@ namespace SistemaVeterinariaPatitasYPelos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FmrHorarios());
+            Application.Run(new FmrCompra());
         }
     }
 }

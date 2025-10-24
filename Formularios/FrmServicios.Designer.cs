@@ -262,6 +262,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_servicio.Name = "id_servicio";
             this.id_servicio.ReadOnly = true;
             this.id_servicio.Width = 150;
+            this.id_servicio.DataPropertyName = "id_servicio"; // Enlaza con la columna "id_servicio" del DataTable
             // 
             // id_cliente
             // 
@@ -270,6 +271,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_cliente.Name = "id_cliente";
             this.id_cliente.ReadOnly = true;
             this.id_cliente.Width = 150;
+            this.id_cliente.DataPropertyName = "id_cliente"; // Enlaza con la columna "id_cliente" del DataTable
             // 
             // fecha
             // 
@@ -278,6 +280,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.fecha.Name = "fecha";
             this.fecha.ReadOnly = true;
             this.fecha.Width = 150;
+            this.fecha.DataPropertyName = "fecha"; // Enlaza con la columna "fecha" del DataTable
             // 
             // total
             // 
@@ -286,6 +289,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.total.Name = "total";
             this.total.ReadOnly = true;
             this.total.Width = 150;
+            this.total.DataPropertyName = "total"; // Enlaza con la columna "total" del DataTable
             // 
             // comentarios
             // 
@@ -294,6 +298,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // FmrServicios
             // 

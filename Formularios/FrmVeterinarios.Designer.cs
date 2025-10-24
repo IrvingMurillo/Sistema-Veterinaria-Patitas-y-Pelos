@@ -274,6 +274,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_veterinario.Name = "id_veterinario";
             this.id_veterinario.ReadOnly = true;
             this.id_veterinario.Width = 150;
+            this.id_veterinario.DataPropertyName = "id_veterinario"; // Enlaza con la columna "id_veterinario" del DataTable
             // 
             // nombres
             // 
@@ -282,6 +283,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.nombres.Name = "nombres";
             this.nombres.ReadOnly = true;
             this.nombres.Width = 150;
+            this.nombres.DataPropertyName = "nombres"; // Enlaza con la columna "nombres" del DataTable
             // 
             // apellidos
             // 
@@ -290,6 +292,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.apellidos.Name = "apellidos";
             this.apellidos.ReadOnly = true;
             this.apellidos.Width = 150;
+            this.apellidos.DataPropertyName = "apellidos"; // Enlaza con la columna "apellidos" del DataTable
             // 
             // telefono
             // 
@@ -298,6 +301,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.telefono.Name = "telefono";
             this.telefono.ReadOnly = true;
             this.telefono.Width = 150;
+            this.telefono.DataPropertyName = "telefono"; // Enlaza con la columna "telefono" del DataTable
             // 
             // email
             // 
@@ -306,6 +310,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.email.Name = "email";
             this.email.ReadOnly = true;
             this.email.Width = 150;
+            this.email.DataPropertyName = "email"; // Enlaza con la columna "email" del DataTable
             // 
             // especialidad
             // 
@@ -314,6 +319,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.especialidad.Name = "especialidad";
             this.especialidad.ReadOnly = true;
             this.especialidad.Width = 150;
+            this.especialidad.DataPropertyName = "especialidad"; // Enlaza con la columna "especialidad" del DataTable
             // 
             // fecha_contratacion
             // 
@@ -322,6 +328,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.fecha_contratacion.Name = "fecha_contratacion";
             this.fecha_contratacion.ReadOnly = true;
             this.fecha_contratacion.Width = 150;
+            this.fecha_contratacion.DataPropertyName = "fecha_contratacion"; // Enlaza con la columna "fecha_contratacion" del DataTable
             // 
             // comentarios
             // 
@@ -330,6 +337,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // usuario
             // 
@@ -338,6 +346,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.usuario.Name = "usuario";
             this.usuario.ReadOnly = true;
             this.usuario.Width = 150;
+            this.usuario.DataPropertyName = "usuario"; // Enlaza con la columna "usuario" del DataTable
             // 
             // contrasena
             // 
@@ -346,6 +355,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.contrasena.Name = "contrasena";
             this.contrasena.ReadOnly = true;
             this.contrasena.Width = 150;
+            this.contrasena.DataPropertyName = "contrasena"; // Enlaza con la columna "contrasena" del DataTable
             // 
             // permisos
             // 
@@ -354,6 +364,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.permisos.Name = "permisos";
             this.permisos.ReadOnly = true;
             this.permisos.Width = 150;
+            this.permisos.DataPropertyName = "permisos"; // Enlaza con la columna "permisos" del DataTable
             // 
             // FmrVeterinarios
             // 

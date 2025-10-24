@@ -119,6 +119,9 @@
     <Compile Include="Clases\Servicio.cs" />
     <Compile Include="Clases\Vacunacion.cs" />
     <Compile Include="Clases\Veterinario.cs" />
+    <Compile Include="Datos\CitaCRUD.cs" />
+    <Compile Include="Datos\ClienteCRUD.cs" />
+    <Compile Include="Datos\CompraCRUD.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,7 +256,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Datos\" />
     <Folder Include="Recursos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

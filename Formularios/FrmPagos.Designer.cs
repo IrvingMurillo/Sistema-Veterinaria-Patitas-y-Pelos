@@ -264,6 +264,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_pago.Name = "id_pago";
             this.id_pago.ReadOnly = true;
             this.id_pago.Width = 150;
+            this.id_pago.DataPropertyName = "id_pago"; // Enlaza con la columna "id_pago" del DataTable
             // 
             // id_servicio
             // 
@@ -272,6 +273,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_servicio.Name = "id_servicio";
             this.id_servicio.ReadOnly = true;
             this.id_servicio.Width = 150;
+            this.id_servicio.DataPropertyName = "id_servicio"; // Enlaza con la columna "id_servicio" del DataTable
             // 
             // fecha
             // 
@@ -280,6 +282,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.fecha.Name = "fecha";
             this.fecha.ReadOnly = true;
             this.fecha.Width = 150;
+            this.fecha.DataPropertyName = "fecha"; // Enlaza con la columna "fecha" del DataTable
             // 
             // monto
             // 
@@ -288,6 +291,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.monto.Name = "monto";
             this.monto.ReadOnly = true;
             this.monto.Width = 150;
+            this.monto.DataPropertyName = "monto"; // Enlaza con la columna "monto" del DataTable
             // 
             // metodo_pago
             // 
@@ -296,6 +300,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.metodo_pago.Name = "metodo_pago";
             this.metodo_pago.ReadOnly = true;
             this.metodo_pago.Width = 150;
+            this.metodo_pago.DataPropertyName = "metodo_pago"; // Enlaza con la columna "metodo_pago" del DataTable
             // 
             // comentarios
             // 
@@ -304,6 +309,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // FmrPagos
             // 

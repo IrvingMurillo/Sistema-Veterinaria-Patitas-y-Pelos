@@ -41,13 +41,13 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.BtnSalir = new FontAwesome.Sharp.IconButton();
             this.DgvCitas = new System.Windows.Forms.DataGridView();
-            this.TxtBuscar = new System.Windows.Forms.TextBox();
             this.id_cita = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_mascota = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_veterinario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_horario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comentarios = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TxtBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DgvCitas)).BeginInit();
             this.SuspendLayout();
@@ -243,6 +243,60 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.DgvCitas.Size = new System.Drawing.Size(1050, 500);
             this.DgvCitas.TabIndex = 8;
             // 
+            // id_cita
+            // 
+            this.id_cita.DataPropertyName = "id_cita";
+            this.id_cita.HeaderText = "ID Cita";
+            this.id_cita.MinimumWidth = 8;
+            this.id_cita.Name = "id_cita";
+            this.id_cita.ReadOnly = true;
+            this.id_cita.Width = 150;
+            // 
+            // id_mascota
+            // 
+            this.id_mascota.DataPropertyName = "id_mascota";
+            this.id_mascota.HeaderText = "ID Mascota";
+            this.id_mascota.MinimumWidth = 8;
+            this.id_mascota.Name = "id_mascota";
+            this.id_mascota.ReadOnly = true;
+            this.id_mascota.Width = 150;
+            // 
+            // id_veterinario
+            // 
+            this.id_veterinario.DataPropertyName = "id_veterinario";
+            this.id_veterinario.HeaderText = "ID Veterinario";
+            this.id_veterinario.MinimumWidth = 8;
+            this.id_veterinario.Name = "id_veterinario";
+            this.id_veterinario.ReadOnly = true;
+            this.id_veterinario.Width = 150;
+            // 
+            // id_horario
+            // 
+            this.id_horario.DataPropertyName = "id_horario";
+            this.id_horario.HeaderText = "ID Horario";
+            this.id_horario.MinimumWidth = 8;
+            this.id_horario.Name = "id_horario";
+            this.id_horario.ReadOnly = true;
+            this.id_horario.Width = 150;
+            // 
+            // fecha
+            // 
+            this.fecha.DataPropertyName = "fecha";
+            this.fecha.HeaderText = "Fecha de Creación";
+            this.fecha.MinimumWidth = 8;
+            this.fecha.Name = "fecha";
+            this.fecha.ReadOnly = true;
+            this.fecha.Width = 150;
+            // 
+            // comentarios
+            // 
+            this.comentarios.DataPropertyName = "comentarios";
+            this.comentarios.HeaderText = "Comentarios";
+            this.comentarios.MinimumWidth = 8;
+            this.comentarios.Name = "comentarios";
+            this.comentarios.ReadOnly = true;
+            this.comentarios.Width = 150;
+            // 
             // TxtBuscar
             // 
             this.TxtBuscar.BackColor = System.Drawing.Color.White;
@@ -256,54 +310,6 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.TxtBuscar.Name = "TxtBuscar";
             this.TxtBuscar.Size = new System.Drawing.Size(156, 53);
             this.TxtBuscar.TabIndex = 9;
-            // 
-            // id_cita
-            // 
-            this.id_cita.HeaderText = "ID Cita";
-            this.id_cita.MinimumWidth = 8;
-            this.id_cita.Name = "id_cita";
-            this.id_cita.ReadOnly = true;
-            this.id_cita.Width = 150;
-            // 
-            // id_mascota
-            // 
-            this.id_mascota.HeaderText = "ID Mascota";
-            this.id_mascota.MinimumWidth = 8;
-            this.id_mascota.Name = "id_mascota";
-            this.id_mascota.ReadOnly = true;
-            this.id_mascota.Width = 150;
-            // 
-            // id_veterinario
-            // 
-            this.id_veterinario.HeaderText = "ID Veterinario";
-            this.id_veterinario.MinimumWidth = 8;
-            this.id_veterinario.Name = "id_veterinario";
-            this.id_veterinario.ReadOnly = true;
-            this.id_veterinario.Width = 150;
-            // 
-            // id_horario
-            // 
-            this.id_horario.HeaderText = "ID Horario";
-            this.id_horario.MinimumWidth = 8;
-            this.id_horario.Name = "id_horario";
-            this.id_horario.ReadOnly = true;
-            this.id_horario.Width = 150;
-            // 
-            // fecha
-            // 
-            this.fecha.HeaderText = "Fecha de Creación";
-            this.fecha.MinimumWidth = 8;
-            this.fecha.Name = "fecha";
-            this.fecha.ReadOnly = true;
-            this.fecha.Width = 150;
-            // 
-            // comentarios
-            // 
-            this.comentarios.HeaderText = "Comentarios";
-            this.comentarios.MinimumWidth = 8;
-            this.comentarios.Name = "comentarios";
-            this.comentarios.ReadOnly = true;
-            this.comentarios.Width = 150;
             // 
             // FmrCitas
             // 

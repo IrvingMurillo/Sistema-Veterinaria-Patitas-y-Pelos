@@ -41,7 +41,6 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.BtnSalir = new FontAwesome.Sharp.IconButton();
             this.DgvClientes = new System.Windows.Forms.DataGridView();
-            this.TxtBuscar = new System.Windows.Forms.TextBox();
             this.id_cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,6 +52,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contrasena = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.permisos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TxtBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DgvClientes)).BeginInit();
             this.SuspendLayout();
@@ -253,6 +253,105 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.DgvClientes.Size = new System.Drawing.Size(1050, 500);
             this.DgvClientes.TabIndex = 8;
             // 
+            // id_cliente
+            // 
+            this.id_cliente.DataPropertyName = "id_cliente";
+            this.id_cliente.HeaderText = "ID Cliente";
+            this.id_cliente.MinimumWidth = 8;
+            this.id_cliente.Name = "id_cliente";
+            this.id_cliente.ReadOnly = true;
+            this.id_cliente.Width = 150;
+            // 
+            // nombres
+            // 
+            this.nombres.DataPropertyName = "nombres";
+            this.nombres.HeaderText = "Nombres";
+            this.nombres.MinimumWidth = 8;
+            this.nombres.Name = "nombres";
+            this.nombres.ReadOnly = true;
+            this.nombres.Width = 150;
+            // 
+            // apellidos
+            // 
+            this.apellidos.DataPropertyName = "apellidos";
+            this.apellidos.HeaderText = "Apellidos";
+            this.apellidos.MinimumWidth = 8;
+            this.apellidos.Name = "apellidos";
+            this.apellidos.ReadOnly = true;
+            this.apellidos.Width = 150;
+            // 
+            // telefono
+            // 
+            this.telefono.DataPropertyName = "telefono";
+            this.telefono.HeaderText = "Teléfono";
+            this.telefono.MinimumWidth = 8;
+            this.telefono.Name = "telefono";
+            this.telefono.ReadOnly = true;
+            this.telefono.Width = 150;
+            // 
+            // email
+            // 
+            this.email.DataPropertyName = "email";
+            this.email.HeaderText = "Email";
+            this.email.MinimumWidth = 8;
+            this.email.Name = "email";
+            this.email.ReadOnly = true;
+            this.email.Width = 150;
+            // 
+            // direccion
+            // 
+            this.direccion.DataPropertyName = "direccion";
+            this.direccion.HeaderText = "Dirección";
+            this.direccion.MinimumWidth = 8;
+            this.direccion.Name = "direccion";
+            this.direccion.ReadOnly = true;
+            this.direccion.Width = 150;
+            // 
+            // fecha_registro
+            // 
+            this.fecha_registro.DataPropertyName = "fecha_registro";
+            this.fecha_registro.HeaderText = "Fecha de registro";
+            this.fecha_registro.MinimumWidth = 8;
+            this.fecha_registro.Name = "fecha_registro";
+            this.fecha_registro.ReadOnly = true;
+            this.fecha_registro.Width = 150;
+            // 
+            // comentarios
+            // 
+            this.comentarios.DataPropertyName = "comentarios";
+            this.comentarios.HeaderText = "Comentarios";
+            this.comentarios.MinimumWidth = 8;
+            this.comentarios.Name = "comentarios";
+            this.comentarios.ReadOnly = true;
+            this.comentarios.Width = 150;
+            // 
+            // usuario
+            // 
+            this.usuario.DataPropertyName = "usuario";
+            this.usuario.HeaderText = "Usuario";
+            this.usuario.MinimumWidth = 8;
+            this.usuario.Name = "usuario";
+            this.usuario.ReadOnly = true;
+            this.usuario.Width = 150;
+            // 
+            // contrasena
+            // 
+            this.contrasena.DataPropertyName = "contrasena";
+            this.contrasena.HeaderText = "Contraseña";
+            this.contrasena.MinimumWidth = 8;
+            this.contrasena.Name = "contrasena";
+            this.contrasena.ReadOnly = true;
+            this.contrasena.Width = 150;
+            // 
+            // permisos
+            // 
+            this.permisos.DataPropertyName = "permisos";
+            this.permisos.HeaderText = "Permisos";
+            this.permisos.MinimumWidth = 8;
+            this.permisos.Name = "permisos";
+            this.permisos.ReadOnly = true;
+            this.permisos.Width = 150;
+            // 
             // TxtBuscar
             // 
             this.TxtBuscar.BackColor = System.Drawing.Color.White;
@@ -266,94 +365,6 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.TxtBuscar.Name = "TxtBuscar";
             this.TxtBuscar.Size = new System.Drawing.Size(156, 53);
             this.TxtBuscar.TabIndex = 9;
-            // 
-            // id_cliente
-            // 
-            this.id_cliente.HeaderText = "ID Cliente";
-            this.id_cliente.MinimumWidth = 8;
-            this.id_cliente.Name = "id_cliente";
-            this.id_cliente.ReadOnly = true;
-            this.id_cliente.Width = 150;
-            // 
-            // nombres
-            // 
-            this.nombres.HeaderText = "Nombres";
-            this.nombres.MinimumWidth = 8;
-            this.nombres.Name = "nombres";
-            this.nombres.ReadOnly = true;
-            this.nombres.Width = 150;
-            // 
-            // apellidos
-            // 
-            this.apellidos.HeaderText = "Apellidos";
-            this.apellidos.MinimumWidth = 8;
-            this.apellidos.Name = "apellidos";
-            this.apellidos.ReadOnly = true;
-            this.apellidos.Width = 150;
-            // 
-            // telefono
-            // 
-            this.telefono.HeaderText = "Teléfono";
-            this.telefono.MinimumWidth = 8;
-            this.telefono.Name = "telefono";
-            this.telefono.ReadOnly = true;
-            this.telefono.Width = 150;
-            // 
-            // email
-            // 
-            this.email.HeaderText = "Email";
-            this.email.MinimumWidth = 8;
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
-            this.email.Width = 150;
-            // 
-            // direccion
-            // 
-            this.direccion.HeaderText = "Dirección";
-            this.direccion.MinimumWidth = 8;
-            this.direccion.Name = "direccion";
-            this.direccion.ReadOnly = true;
-            this.direccion.Width = 150;
-            // 
-            // fecha_registro
-            // 
-            this.fecha_registro.HeaderText = "Fecha de registro";
-            this.fecha_registro.MinimumWidth = 8;
-            this.fecha_registro.Name = "fecha_registro";
-            this.fecha_registro.ReadOnly = true;
-            this.fecha_registro.Width = 150;
-            // 
-            // comentarios
-            // 
-            this.comentarios.HeaderText = "Comentarios";
-            this.comentarios.MinimumWidth = 8;
-            this.comentarios.Name = "comentarios";
-            this.comentarios.ReadOnly = true;
-            this.comentarios.Width = 150;
-            // 
-            // usuario
-            // 
-            this.usuario.HeaderText = "Usuario";
-            this.usuario.MinimumWidth = 8;
-            this.usuario.Name = "usuario";
-            this.usuario.ReadOnly = true;
-            this.usuario.Width = 150;
-            // 
-            // contrasena
-            // 
-            this.contrasena.HeaderText = "Contraseña";
-            this.contrasena.MinimumWidth = 8;
-            this.contrasena.Name = "contrasena";
-            this.contrasena.ReadOnly = true;
-            this.contrasena.Width = 150;
-            // 
-            // permisos
-            // 
-            this.permisos.HeaderText = "Permisos";
-            this.permisos.MinimumWidth = 8;
-            this.permisos.Name = "permisos";
-            this.permisos.ReadOnly = true;
-            this.permisos.Width = 150;
             // 
             // FmrClientes
             // 
@@ -374,6 +385,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FmrClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.FmrClientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DgvClientes)).EndInit();
             this.ResumeLayout(false);

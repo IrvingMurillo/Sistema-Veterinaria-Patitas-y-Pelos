@@ -258,6 +258,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_compra.Name = "id_compra";
             this.id_compra.ReadOnly = true;
             this.id_compra.Width = 150;
+            this.id_compra.DataPropertyName = "id_compra"; // Enlaza la columna con la columna "id_compra" del DataTable
             // 
             // fecha
             // 
@@ -266,6 +267,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.fecha.Name = "fecha";
             this.fecha.ReadOnly = true;
             this.fecha.Width = 150;
+            this.fecha.DataPropertyName = "fecha"; // Enlaza con la columna "fecha" del DataTable
             // 
             // comentarios
             // 
@@ -274,6 +276,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // FmrCompra
             // 

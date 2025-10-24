@@ -262,6 +262,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_vacunacion.Name = "id_vacunacion";
             this.id_vacunacion.ReadOnly = true;
             this.id_vacunacion.Width = 150;
+            this.id_vacunacion.DataPropertyName = "id_vacunacion"; // Enlaza con la columna "id_vacunacion" del DataTable
             // 
             // id_mascota
             // 
@@ -270,6 +271,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_mascota.Name = "id_mascota";
             this.id_mascota.ReadOnly = true;
             this.id_mascota.Width = 150;
+            this.id_mascota.DataPropertyName = "id_mascota"; // Enlaza con la columna "id_mascota" del DataTable
             // 
             // id_producto
             // 
@@ -278,6 +280,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_producto.Name = "id_producto";
             this.id_producto.ReadOnly = true;
             this.id_producto.Width = 150;
+            this.id_producto.DataPropertyName = "id_producto"; // Enlaza con la columna "id_producto" del DataTable
             // 
             // fecha
             // 
@@ -286,6 +289,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.fecha.Name = "fecha";
             this.fecha.ReadOnly = true;
             this.fecha.Width = 150;
+            this.fecha.DataPropertyName = "fecha"; // Enlaza con la columna "fecha" del DataTable
             // 
             // comentarios
             // 
@@ -294,6 +298,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // FmrVacunaciones
             // 

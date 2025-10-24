@@ -268,6 +268,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_horario.Name = "id_horario";
             this.id_horario.ReadOnly = true;
             this.id_horario.Width = 150;
+            this.id_horario.DataPropertyName = "id_horario"; // Enlaza con la columna "id_horario" del DataTable
             // 
             // id_veterinario
             // 
@@ -276,6 +277,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_veterinario.Name = "id_veterinario";
             this.id_veterinario.ReadOnly = true;
             this.id_veterinario.Width = 150;
+            this.id_veterinario.DataPropertyName = "id_veterinario"; // Enlaza con la columna "id_veterinario" del DataTable
             // 
             // nombre_veterinario
             // 
@@ -284,6 +286,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.nombre_veterinario.Name = "nombre_veterinario";
             this.nombre_veterinario.ReadOnly = true;
             this.nombre_veterinario.Width = 150;
+            this.nombre_veterinario.DataPropertyName = "nombre_veterinario"; // Enlaza con la columna "nombre_veterinario" del DataTable
             // 
             // fecha
             // 
@@ -292,6 +295,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.fecha.Name = "fecha";
             this.fecha.ReadOnly = true;
             this.fecha.Width = 150;
+            this.fecha.DataPropertyName = "fecha"; // Enlaza con la columna "fecha" del DataTable
             // 
             // hora_inicio
             // 
@@ -300,6 +304,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.hora_inicio.Name = "hora_inicio";
             this.hora_inicio.ReadOnly = true;
             this.hora_inicio.Width = 150;
+            this.hora_inicio.DataPropertyName = "hora_inicio"; // Enlaza con la columna "hora_inicio" del DataTable
             // 
             // hora_fin
             // 
@@ -308,6 +313,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.hora_fin.Name = "hora_fin";
             this.hora_fin.ReadOnly = true;
             this.hora_fin.Width = 150;
+            this.hora_fin.DataPropertyName = "hora_fin"; // Enlaza con la columna "hora_fin" del DataTable
             // 
             // disponible
             // 
@@ -316,6 +322,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.disponible.Name = "disponible";
             this.disponible.ReadOnly = true;
             this.disponible.Width = 150;
+            this.disponible.DataPropertyName = "disponible"; // Enlaza con la columna "disponible" del DataTable
             // 
             // comentarios
             // 
@@ -324,6 +331,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // FmrHorarios
             // 

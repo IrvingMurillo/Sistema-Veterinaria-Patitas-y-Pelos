@@ -254,6 +254,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_mascota.Name = "id_mascota";
             this.id_mascota.ReadOnly = true;
             this.id_mascota.Width = 150;
+            this.id_mascota.DataPropertyName = "id_mascota"; // Enlaza con la columna "id_mascota" del DataTable
             // 
             // id_cliente
             // 
@@ -262,6 +263,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_cliente.Name = "id_cliente";
             this.id_cliente.ReadOnly = true;
             this.id_cliente.Width = 150;
+            this.id_cliente.DataPropertyName = "id_cliente"; // Enlaza con la columna "id_cliente" del DataTable
             // 
             // nombre
             // 
@@ -270,6 +272,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.nombre.Name = "nombre";
             this.nombre.ReadOnly = true;
             this.nombre.Width = 150;
+            this.nombre.DataPropertyName = "nombre"; // Enlaza con la columna "nombre" del DataTable
             // 
             // especie
             // 
@@ -278,6 +281,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.especie.Name = "especie";
             this.especie.ReadOnly = true;
             this.especie.Width = 150;
+            this.especie.DataPropertyName = "especie"; // Enlaza con la columna "especie" del DataTable
             // 
             // raza
             // 
@@ -286,6 +290,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.raza.Name = "raza";
             this.raza.ReadOnly = true;
             this.raza.Width = 150;
+            this.raza.DataPropertyName = "raza"; // Enlaza con la columna "raza" del DataTable
             // 
             // fecha_nacimiento
             // 
@@ -294,6 +299,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.fecha_nacimiento.Name = "fecha_nacimiento";
             this.fecha_nacimiento.ReadOnly = true;
             this.fecha_nacimiento.Width = 150;
+            this.fecha_nacimiento.DataPropertyName = "fecha_nacimiento"; // Enlaza con la columna "fecha_nacimiento" del DataTable
             // 
             // sexo
             // 
@@ -302,6 +308,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.sexo.Name = "sexo";
             this.sexo.ReadOnly = true;
             this.sexo.Width = 150;
+            this.sexo.DataPropertyName = "sexo"; // Enlaza con la columna "sexo" del DataTable
             // 
             // comentarios
             // 
@@ -310,6 +317,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // TxtBuscar
             // 

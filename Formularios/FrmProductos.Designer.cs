@@ -264,6 +264,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.id_producto.Name = "id_producto";
             this.id_producto.ReadOnly = true;
             this.id_producto.Width = 150;
+            this.id_producto.DataPropertyName = "id_producto"; // Enlaza con la columna "id_producto" del DataTable
             // 
             // nombre
             // 
@@ -272,6 +273,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.nombre.Name = "nombre";
             this.nombre.ReadOnly = true;
             this.nombre.Width = 150;
+            this.nombre.DataPropertyName = "nombre"; // Enlaza con la columna "nombre" del DataTable
             // 
             // tipo
             // 
@@ -280,6 +282,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.tipo.Name = "tipo";
             this.tipo.ReadOnly = true;
             this.tipo.Width = 150;
+            this.tipo.DataPropertyName = "tipo"; // Enlaza con la columna "tipo" del DataTable
             // 
             // precio
             // 
@@ -288,6 +291,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.precio.Name = "precio";
             this.precio.ReadOnly = true;
             this.precio.Width = 150;
+            this.precio.DataPropertyName = "precio"; // Enlaza con la columna "precio" del DataTable
             // 
             // stock
             // 
@@ -296,6 +300,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.stock.Name = "stock";
             this.stock.ReadOnly = true;
             this.stock.Width = 150;
+            this.stock.DataPropertyName = "stock"; // Enlaza con la columna "stock" del DataTable
             // 
             // comentarios
             // 
@@ -304,6 +309,7 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // FmrProductos
             // 

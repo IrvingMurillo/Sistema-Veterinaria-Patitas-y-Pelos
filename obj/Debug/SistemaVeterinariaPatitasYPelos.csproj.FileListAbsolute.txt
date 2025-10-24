@@ -48,3 +48,8 @@ C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaV
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrMascotas.resources
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrProductos.resources
 C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrHorarios.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrPagos.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrServicios.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrCompra.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrVacunaciones.resources
+C:\Users\Usuario\source\repos\SistemaVeterinariaPatitasYPelos\obj\Debug\SistemaVeterinariaPatitasYPelos.Formularios.FmrCitas.resources
