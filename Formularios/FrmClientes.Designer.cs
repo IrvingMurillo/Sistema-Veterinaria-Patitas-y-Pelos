@@ -254,103 +254,103 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.DgvClientes.TabIndex = 8;
             // 
             // id_cliente
-            // 
-            this.id_cliente.DataPropertyName = "id_cliente";
+            //            
             this.id_cliente.HeaderText = "ID Cliente";
             this.id_cliente.MinimumWidth = 8;
             this.id_cliente.Name = "id_cliente";
             this.id_cliente.ReadOnly = true;
             this.id_cliente.Width = 150;
+            this.id_cliente.DataPropertyName = "id_cliente"; // Enlaza con la columna "id_cliente" del DataTable
             // 
             // nombres
-            // 
-            this.nombres.DataPropertyName = "nombres";
+            //            
             this.nombres.HeaderText = "Nombres";
             this.nombres.MinimumWidth = 8;
             this.nombres.Name = "nombres";
             this.nombres.ReadOnly = true;
             this.nombres.Width = 150;
+            this.nombres.DataPropertyName = "nombres"; // Enlaza con la columna "nombres" del DataTable
             // 
             // apellidos
-            // 
-            this.apellidos.DataPropertyName = "apellidos";
+            //             
             this.apellidos.HeaderText = "Apellidos";
             this.apellidos.MinimumWidth = 8;
             this.apellidos.Name = "apellidos";
             this.apellidos.ReadOnly = true;
             this.apellidos.Width = 150;
+            this.apellidos.DataPropertyName = "apellidos"; // Enlaza con la columna "apellidos" del DataTable
             // 
             // telefono
-            // 
-            this.telefono.DataPropertyName = "telefono";
+            //            
             this.telefono.HeaderText = "Teléfono";
             this.telefono.MinimumWidth = 8;
             this.telefono.Name = "telefono";
             this.telefono.ReadOnly = true;
             this.telefono.Width = 150;
+            this.telefono.DataPropertyName = "telefono"; // Enlaza con la columna "telefono" del DataTable
             // 
             // email
-            // 
-            this.email.DataPropertyName = "email";
+            //            
             this.email.HeaderText = "Email";
             this.email.MinimumWidth = 8;
             this.email.Name = "email";
             this.email.ReadOnly = true;
             this.email.Width = 150;
+            this.email.DataPropertyName = "email"; // Enlaza con la columna "email" del DataTable
             // 
             // direccion
-            // 
-            this.direccion.DataPropertyName = "direccion";
+            //          
             this.direccion.HeaderText = "Dirección";
             this.direccion.MinimumWidth = 8;
             this.direccion.Name = "direccion";
             this.direccion.ReadOnly = true;
             this.direccion.Width = 150;
+            this.direccion.DataPropertyName = "direccion"; // Enlaza con la columna "direccion" del DataTable
             // 
             // fecha_registro
-            // 
-            this.fecha_registro.DataPropertyName = "fecha_registro";
+            //          
             this.fecha_registro.HeaderText = "Fecha de registro";
             this.fecha_registro.MinimumWidth = 8;
             this.fecha_registro.Name = "fecha_registro";
             this.fecha_registro.ReadOnly = true;
             this.fecha_registro.Width = 150;
+            this.fecha_registro.DataPropertyName = "fecha_registro"; // Enlaza con la columna "fecha_registro" del DataTable
             // 
             // comentarios
-            // 
-            this.comentarios.DataPropertyName = "comentarios";
+            //          
             this.comentarios.HeaderText = "Comentarios";
             this.comentarios.MinimumWidth = 8;
             this.comentarios.Name = "comentarios";
             this.comentarios.ReadOnly = true;
             this.comentarios.Width = 150;
+            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // usuario
-            // 
-            this.usuario.DataPropertyName = "usuario";
+            //            
             this.usuario.HeaderText = "Usuario";
             this.usuario.MinimumWidth = 8;
             this.usuario.Name = "usuario";
             this.usuario.ReadOnly = true;
             this.usuario.Width = 150;
+            this.usuario.DataPropertyName = "usuario"; // Enlaza con la columna "usuario" del DataTable
             // 
             // contrasena
-            // 
-            this.contrasena.DataPropertyName = "contrasena";
+            //            
             this.contrasena.HeaderText = "Contraseña";
             this.contrasena.MinimumWidth = 8;
             this.contrasena.Name = "contrasena";
             this.contrasena.ReadOnly = true;
             this.contrasena.Width = 150;
+            this.contrasena.DataPropertyName = "contrasena"; // Enlaza con la columna "contrasena" del DataTable
             // 
             // permisos
-            // 
-            this.permisos.DataPropertyName = "permisos";
+            //            
             this.permisos.HeaderText = "Permisos";
             this.permisos.MinimumWidth = 8;
             this.permisos.Name = "permisos";
             this.permisos.ReadOnly = true;
             this.permisos.Width = 150;
+            this.permisos.DataPropertyName = "permisos"; // Enlaza con la columna "permisos" del DataTable
             // 
             // TxtBuscar
             // 

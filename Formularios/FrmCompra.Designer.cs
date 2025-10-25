@@ -41,10 +41,14 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.BtnSalir = new FontAwesome.Sharp.IconButton();
             this.DgvCompras = new System.Windows.Forms.DataGridView();
-            this.TxtBuscar = new System.Windows.Forms.TextBox();
             this.id_compra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productos_comprados = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidad_total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.total_compra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comentarios = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ver_detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TxtBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DgvCompras)).BeginInit();
             this.SuspendLayout();
@@ -61,10 +65,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnAgregar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnAgregar.IconSize = 20;
             this.BtnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnAgregar.Location = new System.Drawing.Point(30, 100);
-            this.BtnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnAgregar.Location = new System.Drawing.Point(20, 65);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(158, 54);
+            this.BtnAgregar.Size = new System.Drawing.Size(105, 35);
             this.BtnAgregar.TabIndex = 0;
             this.BtnAgregar.Text = "AGREGAR";
             this.BtnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -84,10 +87,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnModificar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnModificar.IconSize = 20;
             this.BtnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnModificar.Location = new System.Drawing.Point(197, 100);
-            this.BtnModificar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnModificar.Location = new System.Drawing.Point(131, 65);
             this.BtnModificar.Name = "BtnModificar";
-            this.BtnModificar.Size = new System.Drawing.Size(158, 54);
+            this.BtnModificar.Size = new System.Drawing.Size(105, 35);
             this.BtnModificar.TabIndex = 1;
             this.BtnModificar.Text = "MODIFICAR";
             this.BtnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -107,10 +109,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEliminar.IconSize = 20;
             this.BtnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEliminar.Location = new System.Drawing.Point(363, 100);
-            this.BtnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnEliminar.Location = new System.Drawing.Point(242, 65);
             this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(158, 54);
+            this.BtnEliminar.Size = new System.Drawing.Size(105, 35);
             this.BtnEliminar.TabIndex = 2;
             this.BtnEliminar.Text = "ELIMINAR";
             this.BtnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -129,10 +130,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(21, 28);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(14, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(435, 47);
+            this.label2.Size = new System.Drawing.Size(295, 31);
             this.label2.TabIndex = 4;
             this.label2.Text = "LISTA DE COMPRAS";
             // 
@@ -148,10 +148,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnBuscar.IconSize = 20;
             this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBuscar.Location = new System.Drawing.Point(529, 100);
-            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnBuscar.Location = new System.Drawing.Point(353, 65);
             this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(158, 54);
+            this.BtnBuscar.Size = new System.Drawing.Size(105, 35);
             this.BtnBuscar.TabIndex = 5;
             this.BtnBuscar.Text = "BUSCAR";
             this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -166,11 +165,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.CartShopping;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 48;
-            this.iconPictureBox1.Location = new System.Drawing.Point(464, 26);
-            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.iconPictureBox1.Location = new System.Drawing.Point(315, 17);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(48, 49);
+            this.iconPictureBox1.Size = new System.Drawing.Size(32, 32);
             this.iconPictureBox1.TabIndex = 6;
             this.iconPictureBox1.TabStop = false;
             // 
@@ -185,10 +182,9 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.BtnSalir.IconColor = System.Drawing.Color.White;
             this.BtnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnSalir.IconSize = 30;
-            this.BtnSalir.Location = new System.Drawing.Point(1055, 0);
-            this.BtnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnSalir.Location = new System.Drawing.Point(703, 0);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(45, 45);
+            this.BtnSalir.Size = new System.Drawing.Size(30, 29);
             this.BtnSalir.TabIndex = 7;
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
@@ -216,7 +212,11 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.DgvCompras.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id_compra,
             this.fecha,
-            this.comentarios});
+            this.productos_comprados,
+            this.cantidad_total,
+            this.total_compra,
+            this.comentarios,
+            this.ver_detalle});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -226,16 +226,78 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DgvCompras.DefaultCellStyle = dataGridViewCellStyle3;
             this.DgvCompras.GridColor = System.Drawing.Color.LightGray;
-            this.DgvCompras.Location = new System.Drawing.Point(25, 180);
-            this.DgvCompras.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DgvCompras.Location = new System.Drawing.Point(17, 117);
             this.DgvCompras.MultiSelect = false;
             this.DgvCompras.Name = "DgvCompras";
             this.DgvCompras.ReadOnly = true;
             this.DgvCompras.RowHeadersVisible = false;
             this.DgvCompras.RowHeadersWidth = 62;
             this.DgvCompras.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvCompras.Size = new System.Drawing.Size(1050, 500);
+            this.DgvCompras.Size = new System.Drawing.Size(700, 325);
             this.DgvCompras.TabIndex = 8;
+            // 
+            // id_compra
+            // 
+            this.id_compra.DataPropertyName = "id_compra";
+            this.id_compra.HeaderText = "ID Compra";
+            this.id_compra.MinimumWidth = 8;
+            this.id_compra.Name = "id_compra";
+            this.id_compra.ReadOnly = true;
+            this.id_compra.Width = 150;
+            // 
+            // fecha
+            // 
+            this.fecha.DataPropertyName = "fecha";
+            this.fecha.HeaderText = "Fecha de Compra";
+            this.fecha.MinimumWidth = 8;
+            this.fecha.Name = "fecha";
+            this.fecha.ReadOnly = true;
+            this.fecha.Width = 150;
+            // 
+            // productos_comprados
+            // 
+            this.productos_comprados.DataPropertyName = "productos_comprados";
+            this.productos_comprados.HeaderText = "Productos Comprados";
+            this.productos_comprados.MinimumWidth = 8;
+            this.productos_comprados.Name = "productos_comprados";
+            this.productos_comprados.ReadOnly = true;
+            this.productos_comprados.Width = 150;
+            // 
+            // cantidad_total
+            // 
+            this.cantidad_total.DataPropertyName = "cantidad_total";
+            this.cantidad_total.HeaderText = "Cant. Total";
+            this.cantidad_total.MinimumWidth = 8;
+            this.cantidad_total.Name = "cantidad_total";
+            this.cantidad_total.ReadOnly = true;
+            this.cantidad_total.Width = 150;
+            // 
+            // total_compra
+            // 
+            this.total_compra.DataPropertyName = "total_compra";
+            this.total_compra.HeaderText = "Total ($)";
+            this.total_compra.MinimumWidth = 8;
+            this.total_compra.Name = "total_compra";
+            this.total_compra.ReadOnly = true;
+            this.total_compra.Width = 150;
+            // 
+            // comentarios
+            // 
+            this.comentarios.DataPropertyName = "comentarios";
+            this.comentarios.HeaderText = "Comentarios";
+            this.comentarios.MinimumWidth = 8;
+            this.comentarios.Name = "comentarios";
+            this.comentarios.ReadOnly = true;
+            this.comentarios.Width = 150;
+            // 
+            // ver_detalle
+            // 
+            this.ver_detalle.DataPropertyName = "ver_detalle";
+            this.ver_detalle.HeaderText = "Ver Detalle";
+            this.ver_detalle.MinimumWidth = 8;
+            this.ver_detalle.Name = "ver_detalle";
+            this.ver_detalle.ReadOnly = true;
+            this.ver_detalle.Width = 150;
             // 
             // TxtBuscar
             // 
@@ -244,46 +306,18 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.TxtBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TxtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBuscar.ForeColor = System.Drawing.Color.Black;
-            this.TxtBuscar.Location = new System.Drawing.Point(683, 100);
-            this.TxtBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBuscar.Location = new System.Drawing.Point(455, 65);
             this.TxtBuscar.Multiline = true;
             this.TxtBuscar.Name = "TxtBuscar";
-            this.TxtBuscar.Size = new System.Drawing.Size(156, 53);
+            this.TxtBuscar.Size = new System.Drawing.Size(105, 35);
             this.TxtBuscar.TabIndex = 9;
-            // 
-            // id_compra
-            // 
-            this.id_compra.HeaderText = "ID Compra";
-            this.id_compra.MinimumWidth = 8;
-            this.id_compra.Name = "id_compra";
-            this.id_compra.ReadOnly = true;
-            this.id_compra.Width = 150;
-            this.id_compra.DataPropertyName = "id_compra"; // Enlaza la columna con la columna "id_compra" del DataTable
-            // 
-            // fecha
-            // 
-            this.fecha.HeaderText = "Fecha de Compra";
-            this.fecha.MinimumWidth = 8;
-            this.fecha.Name = "fecha";
-            this.fecha.ReadOnly = true;
-            this.fecha.Width = 150;
-            this.fecha.DataPropertyName = "fecha"; // Enlaza con la columna "fecha" del DataTable
-            // 
-            // comentarios
-            // 
-            this.comentarios.HeaderText = "Comentarios";
-            this.comentarios.MinimumWidth = 8;
-            this.comentarios.Name = "comentarios";
-            this.comentarios.ReadOnly = true;
-            this.comentarios.Width = 150;
-            this.comentarios.DataPropertyName = "comentarios"; // Enlaza con la columna "comentarios" del DataTable
             // 
             // FmrCompra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1100, 700);
+            this.ClientSize = new System.Drawing.Size(733, 455);
             this.Controls.Add(this.TxtBuscar);
             this.Controls.Add(this.DgvCompras);
             this.Controls.Add(this.BtnSalir);
@@ -294,7 +328,6 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
             this.Controls.Add(this.BtnModificar);
             this.Controls.Add(this.BtnAgregar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FmrCompra";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
@@ -318,6 +351,10 @@ namespace SistemaVeterinariaPatitasYPelos.Formularios
         private System.Windows.Forms.TextBox TxtBuscar;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_compra;
         private System.Windows.Forms.DataGridViewTextBoxColumn fecha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn productos_comprados;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cantidad_total;
+        private System.Windows.Forms.DataGridViewTextBoxColumn total_compra;
         private System.Windows.Forms.DataGridViewTextBoxColumn comentarios;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ver_detalle;
     }
 }

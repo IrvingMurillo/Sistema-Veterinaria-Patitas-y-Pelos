@@ -5,13 +5,21 @@ using SistemaVeterinariaPatitasYPelos.Clases;
 
 namespace SistemaVeterinariaPatitasYPelos.Datos
 {
-    class CompraCRUD
+    /// <summary>
+    /// Clase para operaciones CRUD sobre la tabla Compra.
+    /// Solo lectura por ahora.
+    /// Autor: Irving Lopez
+    /// Fecha: 25/10/2025
+    /// </summary>
+    public class CompraCRUD
     {
-        // Instancia de la clase de conexión a la base de datos
+        /// <summary>
+        /// Instancia de la clase Conexion para manejar la conexión a MySQL.
+        /// </summary>
         private readonly Conexion conexion;
 
         /// <summary>
-        /// Constructor de la clase CompraCRUD.
+        /// Constructor de CompraCRUD.
         /// Inicializa la conexión a la base de datos.
         /// </summary>
         public CompraCRUD()
@@ -20,49 +28,56 @@ namespace SistemaVeterinariaPatitasYPelos.Datos
         }
 
         /// <summary>
-        /// Obtiene todos los registros de citas de la base de datos.
-        /// Se utiliza un DataTable para almacenar temporalmente los resultados.
+        /// Obtiene todas las compras registradas en la base de datos.
+        /// Incluye productos comprados, cantidad total y total de la compra.
+        /// La columna de detalle no se incluye aquí, se maneja desde el formulario.
         /// </summary>
-        /// <returns>DataTable con todos los registros de la tabla Citas.</returns>
+        /// <returns>DataTable con todas las compras y su resumen.</returns>
         public DataTable ObtenerTodasCompras()
         {
-            // Creamos un DataTable vacío donde se almacenarán los clientes
             DataTable dtCompras = new DataTable();
 
             try
             {
-                // Abrimos la conexión a la base de datos
+                // Abrir la conexión
                 if (conexion.AbrirConexion())
                 {
-                    // Consulta SQL para obtener todos los compras
-                    string query = "SELECT * FROM Compra";
+                    // Consulta para obtener las compras con productos y totales
+                    string query = @"
+                        SELECT 
+                            c.id_compra AS id_compra,
+                            c.fecha AS fecha,
+                            GROUP_CONCAT(p.nombre SEPARATOR ', ') AS productos_comprados,
+                            IFNULL(SUM(dc.cantidad), 0) AS cantidad_total,
+                            IFNULL(SUM(dc.subtotal), 0) AS total_compra,
+                            c.comentarios AS comentarios
+                        FROM Compra c
+                        LEFT JOIN DetalleCompra dc ON c.id_compra = dc.id_compra
+                        LEFT JOIN Productos p ON dc.id_producto = p.id_producto
+                        GROUP BY c.id_compra, c.fecha, c.comentarios
+                        ORDER BY c.id_compra DESC;";
 
-                    // Creamos un comando con la consulta y la conexión
+                    // Ejecutar la consulta
                     using (MySqlCommand cmd = new MySqlCommand(query, conexion.GetConnection()))
                     {
-                        // Adaptador para llenar el DataTable con los resultados de la consulta
                         using (MySqlDataAdapter da = new MySqlDataAdapter(cmd))
                         {
-                            da.Fill(dtCompras); // Llenamos el DataTable
+                            da.Fill(dtCompras);
                         }
                     }
-
-                    // Mensaje opcional para depuración: número de filas obtenidas
-                    Console.WriteLine("Cantidad de filas obtenidas: " + dtCompras.Rows.Count);
                 }
             }
             catch (Exception ex)
             {
-                // Captura de errores y mensaje en consola
+                // Mostrar error en consola si falla
                 Console.WriteLine("Error al obtener compras: " + ex.Message);
             }
             finally
             {
-                // Cerramos la conexión en cualquier caso para liberar recursos
+                // Cerrar la conexión
                 conexion.CerrarConexion();
             }
 
-            // Retornamos el DataTable con los clientes
             return dtCompras;
         }
     }

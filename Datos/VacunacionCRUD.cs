@@ -6,53 +6,51 @@ using SistemaVeterinariaPatitasYPelos.Clases;
 namespace SistemaVeterinariaPatitasYPelos.Datos
 {
     /// <summary>
-    /// Clase para realizar operaciones CRUD sobre la tabla Citas en la base de datos.
+    /// Clase para realizar operaciones CRUD sobre la tabla Vacunacion en la base de datos.
     /// Autor: Irving Lopez
-    /// Fecha: 23/10/2025
+    /// Fecha: 24/10/2025
     /// </summary>
-    class CitaCRUD
+    class VacunacionCRUD
     {
         // Instancia de la clase de conexión a la base de datos
         private readonly Conexion conexion;
 
         /// <summary>
-        /// Constructor de la clase CitaCRUD.
+        /// Constructor de la clase VacunacionCRUD.
         /// Inicializa la conexión a la base de datos.
         /// </summary>
-        public CitaCRUD()
+        public VacunacionCRUD()
         {
             conexion = new Conexion();
         }
 
         /// <summary>
-        /// Obtiene todos los registros de citas de la base de datos.
+        /// Obtiene todos los registros de vacunaciones de la base de datos.
         /// Se utiliza un DataTable para almacenar temporalmente los resultados.
         /// </summary>
-        /// <returns>DataTable con todos los registros de la tabla Citas.</returns>
-        public DataTable ObtenerTodasCitas()
+        /// <returns>DataTable con todas las vacunaciones registradas.</returns>
+        public DataTable ObtenerTodasVacunaciones()
         {
-            // Creamos un DataTable vacío donde se almacenarán las citas
-            DataTable dtCitas = new DataTable();
+            // Creamos un DataTable vacío donde se almacenarán las vacunaciones
+            DataTable dtVacunaciones = new DataTable();
 
             try
             {
                 // Abrimos la conexión a la base de datos
                 if (conexion.AbrirConexion())
                 {
-                    // Consulta SQL para obtener las citas con información legible
+                    // Consulta SQL para obtener las vacunaciones con información legible
                     string query = @"
                         SELECT 
-                            ci.id_cita,
+                            v.id_vacunacion,
                             m.nombre AS nombre_mascota,
-                            CONCAT(v.nombres, ' ', v.apellidos) AS nombre_veterinario,
-                            CONCAT(h.hora_inicio, ' - ', h.hora_fin) AS Horario,
-                            ci.fecha,
-                            ci.comentarios
-                        FROM Cita ci
-                        INNER JOIN Mascotas m ON ci.id_mascota = m.id_mascota
-                        INNER JOIN Veterinarios v ON ci.id_veterinario = v.id_veterinario
-                        INNER JOIN Horario h ON ci.id_horario = h.id_horario
-                        ORDER BY ci.fecha
+                            p.nombre AS nombre_producto,
+                            v.fecha,
+                            v.comentarios
+                        FROM Vacunacion v
+                        INNER JOIN Mascotas m ON v.id_mascota = m.id_mascota
+                        INNER JOIN Productos p ON v.id_producto = p.id_producto
+                        ORDER BY v.fecha DESC
                     ";
 
                     // Creamos un comando con la consulta y la conexión
@@ -61,18 +59,18 @@ namespace SistemaVeterinariaPatitasYPelos.Datos
                         // Adaptador para llenar el DataTable con los resultados de la consulta
                         using (MySqlDataAdapter da = new MySqlDataAdapter(cmd))
                         {
-                            da.Fill(dtCitas); // Llenamos el DataTable
+                            da.Fill(dtVacunaciones); // Llenamos el DataTable
                         }
                     }
 
                     // Mensaje opcional para depuración: número de filas obtenidas
-                    Console.WriteLine("Cantidad de citas obtenidas: " + dtCitas.Rows.Count);
+                    Console.WriteLine("Cantidad de vacunaciones obtenidas: " + dtVacunaciones.Rows.Count);
                 }
             }
             catch (Exception ex)
             {
                 // Captura de errores y mensaje en consola
-                Console.WriteLine("Error al obtener citas: " + ex.Message);
+                Console.WriteLine("Error al obtener vacunaciones: " + ex.Message);
             }
             finally
             {
@@ -80,8 +78,8 @@ namespace SistemaVeterinariaPatitasYPelos.Datos
                 conexion.CerrarConexion();
             }
 
-            // Retornamos el DataTable con las citas
-            return dtCitas;
+            // Retornamos el DataTable con las vacunaciones
+            return dtVacunaciones;
         }
     }
 }

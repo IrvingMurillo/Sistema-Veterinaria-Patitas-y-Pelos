@@ -122,6 +122,13 @@
     <Compile Include="Datos\CitaCRUD.cs" />
     <Compile Include="Datos\ClienteCRUD.cs" />
     <Compile Include="Datos\CompraCRUD.cs" />
+    <Compile Include="Datos\DetallecompraCRUD.cs" />
+    <Compile Include="Datos\GerenteCRUD.cs" />
+    <Compile Include="Datos\HorariosCRUD.cs" />
+    <Compile Include="Datos\MascotaCRUD.cs" />
+    <Compile Include="Datos\ProductoCRUD.cs" />
+    <Compile Include="Datos\VacunacionCRUD.cs" />
+    <Compile Include="Datos\VeterinarioCRUD.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
